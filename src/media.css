@@ -1,0 +1,422 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 960px;
+    }
+    .news__card img {
+        width: 200px;
+    }   
+    .footer__smaller-title:last-of-type , .footer__smaller-title {
+        margin-right: 0;
+    }
+    .footer__logo {
+        flex-grow: 0;
+    }
+    .first-screen {
+        padding-bottom: 158px;
+        height: auto;
+        display: block;
+    }
+    .whoarewe {
+        padding-top: 80px;
+    }
+    .work-areas {
+        padding-top: 158px;
+    }
+}
+@media (max-width: 1024px) {
+    .wrapper {
+        max-width: 800px;
+    }
+    .wrapper-s {
+        max-width: 600px;
+    }
+    .menu__wrapper {
+        left: 0;
+    }
+    .work-areas {
+        padding-top: 96px;
+    }
+    .work-areas__areas {
+        flex-direction: column;
+        align-items: center; 
+        min-width: 0;   
+    }
+    .card__label {
+        flex-direction: row;
+        align-items: center;
+    }
+    .areas__name {
+        font-size: 18px;
+    }
+    .areas__txt {
+        font-size: 12px;
+    }
+    .work-areas__title {
+        display: block;
+    }
+    .about-us {
+        margin-bottom: -130px;  
+    }
+    .about-us__wrapper {
+        padding-top: 50px;
+    }
+    .about-us__info {
+        width: 100%;
+        margin-bottom: 46px;
+    }
+    .video__container {
+        margin: 0 auto;
+    }
+    .about-us_addition {
+        background-color: #f5f5f5;
+    }
+    .addition__wrapper {
+        padding: 184px 0 50px;
+    }
+    .addition__info {
+        max-width: 100%;
+    }
+    .addition__regular-txt {
+        max-width: 100%;
+        margin-bottom: 36px;
+    }
+    .addition__numbers {
+        margin: 0 auto;
+    }
+    .development__background {
+        display: none;
+    }
+    .development__card {
+        z-index: 1;
+        margin-right: 0;
+        background-color: inherit;
+    }
+    .development__img_adaptive {
+        margin-top: -68px;
+    }
+    .development__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .development__card {
+        box-shadow: none;
+    }
+    .projects__row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects__card:not(:last-of-type) {
+        margin-bottom: 80px;
+    }
+    .footer__logo {
+        flex-grow: 0;
+    }
+}
+@media (max-width: 992px) {
+    .wrapper {
+        max-width: 794px;
+    }
+}
+@media (max-width: 800px) {
+    .wrapper, .wrapper-s {
+        max-width: 640px;
+    }
+    .menu__wrapper {
+        max-width: 500px;
+    }
+    .first-screen {
+        padding-bottom: 18px;
+    }
+    .whoarewe__title {
+        color: #00547E;
+    }
+    .whoarewe__wrapper {
+        background-color: rgba(255, 255, 255, .2);
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        padding-left: 18px;
+        padding-right: 18px;
+        flex-direction: column;
+    }
+    .work-areas {
+        width: 100%;    
+    }
+    .work-areas__areas {
+        flex-direction: row;
+    }
+    .work-areas__title {
+        display: none;
+    }
+    .header {
+        padding-top: 15px;
+    }
+    .header__wrapper {
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+        background-color: rgba(255, 255, 255, .2);
+        padding-top: 30px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom: .2px solid #00547E
+    }
+    .adaptive-reverse {
+        flex-direction: row-reverse;
+    }
+    .burger-icon {
+        align-items: flex-start;
+    }
+    .langswitch {
+        flex-grow: 1;
+        justify-content: flex-end;
+        margin-left: 0;
+    }
+    .news__regular-title, .projects__regular-title {
+        text-align: center;
+    }
+    .news__line, .projects__line {
+        left: calc(50% - 40px);
+    }
+    .map__container, #mapImg {
+        height: 674px;
+        max-width: 1146px;
+    }
+}
+@media (max-width: 650px) {
+    .wrapper, .wrapper-s {
+        max-width: 520px;
+    }
+    .menu__wrapper {
+        max-width: 300px;
+    }
+    .submenu {
+        right: 12px;
+    }
+    .submenu__parent::after {
+        right: -20px;
+    }
+    .areas__card {
+        width: 200px;
+    }
+    .card__label {
+        flex-direction: column;
+    }
+    .areas__img {
+        margin-right: 0;
+    }
+    .structure {
+        padding-top: 100px;
+    }
+    .news__card {
+        display: none;
+    }
+    .news__container {
+        margin-bottom: 28px;
+    }
+    .news__link {
+        display: block;
+    }
+    .news__card:nth-of-type(1) {
+        display: block;
+    }
+    .news__card:nth-of-type(2) {
+        display: block;
+    }
+    .news__smaller-title {
+        max-width: 130px;
+    }
+    .footer__wrapper {
+        flex-direction: column;
+    }
+    .footer__smaller-title {
+        margin-top: 16px;
+    }
+}
+@media (max-width: 520px) {
+    .wrapper, .wrapper-s, .structure__info {
+        max-width: 400px;
+    }
+    .header__logo img {
+        width: 130px;
+    }
+    .about-us video {
+        max-width: 289px;
+        height: 188px;
+    }
+    .about-us {
+        margin-bottom: -100px;
+    }
+    .areas__card {
+        min-height: 0;
+        width: 150px;
+    }
+    .areas__txt {
+        display: none;
+    }
+    .development {
+        padding-bottom: 0;
+    }
+    .development__img_adaptive {
+        width: 600px;
+    }
+    .news__card img {
+        width: 170px;
+    }
+    .projects__card {
+        width: 400px;
+    }
+}
+@media (max-width: 425px) {
+    .wrapper, .wrapper-s, .structure__info {
+        max-width: 320px;
+    }
+    .header__logo img {
+        width: 98px;
+    }
+    .whoarewe__title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .regular-title {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .whoarewe__txt {
+        font-size: 10px;
+        line-height: 17px;
+        margin-bottom: 0;
+    }
+    .whoarewe__btn {
+        display: none;
+    }
+    .work-areas {
+        padding-top: 22px;
+    }
+    .areas__card {
+        width: 115px;
+    }
+    .areas__img {
+        width: 25px;
+        height: 29px;
+    }
+    .areas__name {
+        font-size: 16px;
+    }
+    .areas__link a {
+        font-size: 10px;
+    }
+    .about-us__regular-title {
+        margin-bottom: 42px;
+    }
+    .addition__regular-title {
+        margin-bottom: 54px;
+    }
+    .addition__line {
+        bottom: -19px;
+    }
+    .whoarewe {
+        padding-top: 59px;
+    }
+    .whoarewe__title {
+        margin-bottom: 46px;
+    }
+    .whoarewe__line {
+        display: block;
+        bottom: -25px;
+    }
+    .addition__numbers {
+        min-width: 290px;
+    }
+    .regular-txt {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .video__container img {
+        width: 81px;
+        height: 81px;
+    }
+    .about-us__wrapper {
+        padding-top: 25px;
+    }
+    .numbers__light {
+        font-size: 12px;
+    }
+    .news {
+        padding-top: 62px;
+    }
+    .news__card img {
+        width: 130px;
+    }
+    .news__sphere {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .news__smaller-title {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+    .news__img {
+        margin-bottom: 12px;
+    }
+    .structure__line {
+        bottom: -17px;
+    }
+    .structure__regular-title {
+        margin-bottom: 44px;
+    }
+    .structure__info {
+        margin-bottom: 39px;
+    }
+    .development {
+        padding-top: 82px;
+    }
+    .development__card {
+        max-width: 270px;
+        padding: 0;
+    }
+    .development__img_adaptive {
+        margin-top: -25px;
+    }
+    .development__line {
+        bottom: -20px;
+    }
+    .development__regular-title {
+        margin-bottom: 40px;
+    }
+    .projects__card {
+        width: 290px;
+        height: 224px;
+    }
+    .projects__info {
+        min-width: 205px;
+        text-align: center;
+        padding: 10px;
+    }
+    .projects .areas__link a {
+        font-size: 12px;
+    }
+    .projects {
+        margin-bottom: 89px;
+    }
+    .footer .smaller-title {
+        font-size: 14px;
+    }
+    .footer__logo img {
+        width: 130px;
+        height: 46px;
+    }
+    .footer__wrapper {
+        padding: 23px 0;
+    }
+}
+@media (max-width: 320px) {
+    .wrapper, .wrapper-s, .structure__info {
+        max-width: 289px;
+    }
+    .development__img_adaptive {
+        width: 376px;
+    }
+}
